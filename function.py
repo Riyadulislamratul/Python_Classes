@@ -60,3 +60,56 @@
 # total(2,3)
 # total(65465,68468474)
 
+
+
+
+# ---------------**Kwargs----------
+# def function_name(**kwargs):
+#     statement
+
+
+# def show(**kwargs):
+#     print(kwargs)
+
+# show(name = "jobaydul",
+#      age = "21",
+#      department = "CSE",
+#      maraital_Status = "Married",
+#      nationality = "Bangladeshi"
+# )
+
+
+# ----------------- Lambda Function-----------------------------
+
+# lambda agruments: expression 
+
+# square = lambda x: x*x
+
+# print(square(7))
+
+
+
+# large = lambda a, b: a if a>b else b
+
+# print(large(35, 21))
+
+
+
+# -----------------------------------Global varible ------------------------------------------
+
+a = 55
+b = 100
+
+# -----------------------------------Local varible ------------------------------------------
+def local_variable():
+  
+    print(b,a)
+
+
+local_variable()
+
+
+def global_varible():
+    print(a,b)
+
+global_varible()
